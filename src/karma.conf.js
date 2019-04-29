@@ -25,8 +25,6 @@ module.exports = function (config) {
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
-    autoWatch: true,
-    browsers: ['PhantomJS'],
-    singleRun: true
+    browsers: ['PhantomJS']
   });
 };
